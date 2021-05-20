@@ -25,3 +25,6 @@ Insert into AddressBook (FirstName, LastName, Address, City, State, ZipCode, Pho
 Select FirstName From AddressBook where City = 'Bangalore' or State = 'Uttarakhand';
 Select Count(City) From AddressBook;
 Select Count(State) From AddressBook;
+Insert into AddressBook (FirstName, LastName, Address, City, State, ZipCode, PhoneNumber, EmailId) values ('Vidita','Kumari','Whitefield', 'Bangalore','Karnataka' ,'459755','6700345734','viditaK@outlook.com'),
+                                                                                                          ('Ankit','Rawat','Indiranagar','Bangalore','Karnataka','6130122','9843490014','ankit04@gmail.com');
+Select FirstName From AddressBook where City = 'Bangalore' order by FirstName;
