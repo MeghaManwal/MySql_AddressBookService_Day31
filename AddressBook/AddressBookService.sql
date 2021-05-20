@@ -20,3 +20,6 @@ Update AddressBook set PhoneNumber = '9246143520' where FirstName = 'Shikha';
 Update AddressBook set Address = 'UBCity' where LastName = 'Rawat';
 Delete From AddressBook where FirstName='Sandeep';
 Select * From AddressBook;
+Insert into AddressBook (FirstName, LastName, Address, City, State, ZipCode, PhoneNumber, EmailId) values ('Rashmi','Das','Hinjewadi', 'Pune','Maharastra ' ,'600155','9219345734','rashmi@orkut.com'),
+                                                                                                          ('Shivam','Chopra','Kormangala','Bangalore','Karnataka','500122','8654190014','shivam99@gmail.com');
+Select FirstName From AddressBook where City = 'Bangalore' or State = 'Uttarakhand';
