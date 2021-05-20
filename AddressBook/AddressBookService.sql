@@ -16,4 +16,5 @@ Insert into AddressBook (FirstName, LastName, Address, City, State, ZipCode, Pho
                                                                                                           ('Anjali','Negi','Kotdwar','Dehradun','Uttarakhand','200342','9256178014','anjaliNegi@gmail.com'),
                                                                                                           ('Sandeep','Rawat','Kormangala','Bangalore','Karnataka','500812','9655534014','Sandeep.rawat@gmail.com'),
                                                                                                           ('Shikha','Chauhan','Navi Village','Lucknow','Uttar Pradesh','317702','7913260014','shikha@gmail.com');
-
+Update AddressBook set PhoneNumber = '9246143520' where FirstName = 'Shikha';
+Update AddressBook set Address = 'UBCity' where LastName = 'Rawat';
