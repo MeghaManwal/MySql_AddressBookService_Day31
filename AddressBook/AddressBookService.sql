@@ -18,3 +18,5 @@ Insert into AddressBook (FirstName, LastName, Address, City, State, ZipCode, Pho
                                                                                                           ('Shikha','Chauhan','Navi Village','Lucknow','Uttar Pradesh','317702','7913260014','shikha@gmail.com');
 Update AddressBook set PhoneNumber = '9246143520' where FirstName = 'Shikha';
 Update AddressBook set Address = 'UBCity' where LastName = 'Rawat';
+Delete From AddressBook where FirstName='Sandeep';
+Select * From AddressBook;
