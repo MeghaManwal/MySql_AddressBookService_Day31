@@ -41,3 +41,6 @@ Update AddressBook set AddressBookName = 'AddressBook3' where FirstName  = 'Rash
 Update AddressBook set AddressBookType = 'Family' where FirstName  = 'Rajesh'  or FirstName  = 'Vidita';
 Update AddressBook set AddressBookType = 'Friends' where FirstName  = 'Ankit' or FirstName  = 'Anjali' or FirstName  = 'Nikita' or FirstName  = 'Shivam';
 Update AddressBook set AddressBookType = 'Profession' where FirstName  = 'Rashmi' or FirstName  = 'Shikha'; 
+Select Count(FirstName) From AddressBook where AddressBookType = 'Family' order by FirstName;
+Select Count(FirstName) From AddressBook where AddressBookType = 'Friends' order by FirstName;
+Select Count(FirstName) From AddressBook where AddressBookType = 'Profession' order by FirstName;
