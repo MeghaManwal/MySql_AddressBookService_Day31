@@ -15,5 +15,10 @@ Insert into Friends (FirstName, LastName, Address, City, State, ZipCode, PhoneNu
                     ('Shivam','Chopra','Kormangala','Bangalore','Karnataka','500122','8654190014','shivam99@gmail.com'),
 		    ('Anjali','Negi','Kotdwar','Dehradun','Uttarakhand','200342','9256178014','anjaliNegi@gmail.com'),
                     ('Ankit','Rawat','Indiranagar','Bangalore','Karnataka','6130122','9843490014','ankit04@gmail.com');
-Select * From Friends;           
+Select * From Friends; 
+Select FirstName From Friends where City = 'Bangalore';
+Select Count(City) From Friends;
+Select Count(State) From Friends; 
+Select FirstName From Friends where City = 'Bangalore' order by FirstName; 
+Select FirstName From Friends where City = 'Bangalore' order by FirstName DESC;          
  

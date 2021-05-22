@@ -14,3 +14,8 @@ Insert into Family (FirstName, LastName, Address, City, State, ZipCode, PhoneNum
             values('Vidita','Kumari','Whitefield', 'Bangalore','Karnataka' ,'459755','6700345734','viditaK@outlook.com'),
                   ('Rajesh','Sharma','BTM Layout','Bangalore','Karnataka','568882','973660014','rajesh@gmail.com');
 Select * From Family;            
+Select FirstName From Family where City = 'Bangalore';
+Select Count(City) From Family where City = 'Bangalore';
+Select Count(State) From Family; 
+Select FirstName From Family where City = 'Bangalore' order by FirstName; 
+Select FirstName From Family where City = 'Bangalore' order by FirstName DESC;     
